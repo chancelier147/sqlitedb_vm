@@ -4,13 +4,13 @@
 
 This project is divided into two steps. The first step is to deploy a virtual machine and install sqlite with vagrant. The second step concerns the creation of a new database and four (4) tables inside this database.
 
-1. Creating a virtual machine and installing sqlite
+**1. Creating a virtual machine and installing sqlite**
 
 The Vagrant file contains the code needed to deploy an ubuntu bionic virtual machine and install sqlite.
 
-2. Creating a new database
+**2. Creating a new database**
 
-First you have to connect to our installed virtual machine with the command &quot; **vagrant ssh**&quot; and then execute the following commands.
+First you have to connect to our installed virtual machine with the command &quot;**vagrant ssh**&quot; and then execute the following commands.
 ```
 $ sqlite3 newdatabase
 ```
